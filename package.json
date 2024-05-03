@@ -1,15 +1,16 @@
 {
-  "name": "vscodetest",
-  "displayName": "vscodetest",
+  "name": "tct123-vscodetest",
+  "displayName": "tct123-vscodetest",
   "description": "desmnjsdaddsddfsfsfsafdds",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
   },
   "license": "SEE LICENSE IN LICENSE",
+  "publisher": "tct123",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tct123/vscodetest"
+    "url": "https://github.com/tct123/tct123-vscodetest"
   },
   "categories": [
     "Other"
@@ -18,7 +19,7 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "vscodetest.helloWorld",
+      "command": "tct123-vscodetest.helloWorld",
       "title": "Hello World"
     }]
   },
