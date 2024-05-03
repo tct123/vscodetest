@@ -10,7 +10,7 @@
   "publisher": "tct123",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tct123/tct123-vscodetest"
+    "url": "https://github.com/tct123/vscodetest"
   },
   "categories": [
     "Other"
@@ -18,10 +18,12 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "tct123-vscodetest.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "tct123-vscodetest.helloWorld",
+        "title": "Hello World"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
